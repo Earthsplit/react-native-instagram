@@ -1,5 +1,5 @@
 import { Tabs } from 'expo-router'
-import { home, search, add, reels } from '../../assets/icons'
+import { home, explore, add, reels } from '../../assets/icons'
 import { Image } from 'react-native'
 
 export default () => {
@@ -14,10 +14,10 @@ export default () => {
 				}}
 			/>
 			<Tabs.Screen
-				name='search'
+				name='explore'
 				options={{
 					headerShown: false,
-					tabBarIcon: search,
+					tabBarIcon: explore,
 					tabBarActiveTintColor: '#000',
 				}}
 			/>
