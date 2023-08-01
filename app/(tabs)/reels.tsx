@@ -1,11 +1,7 @@
-import { View, Text } from 'react-native'
+import Reels from '../../components/reels/Reels'
 
 const reels = () => {
-	return (
-		<View>
-			<Text>reels</Text>
-		</View>
-	)
+	return <Reels />
 }
 
 export default reels
