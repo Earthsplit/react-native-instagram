@@ -1,7 +1,6 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import styles from './Header.styles'
-import Heart from '../../../assets/icons/heart.svg'
-import Send from '../../../assets/icons/send.svg'
+import { Heart, Send } from '../../../assets/icons'
 import Stories from './stories/Stories'
 
 const Header = () => {

@@ -40,72 +40,71 @@ const postData = [
 	{
 		name: 'koropaev',
 		location: 'Dancing House',
-		logo: 'https://instagram.fprg4-1.fna.fbcdn.net/v/t51.2885-19/317259316_1860897497584917_8380826562689354298_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fprg4-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=YxUH9eGTDW0AX8F55hY&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDhNh-D8i1KFEZCo1zVQxqWHO6KxOTr4BhzMHXdYIj8Cw&oe=64BD8021&_nc_sid=8b3546',
+		logo: require('../assets/images/profilePics/profilePic2.png'),
 		image:
-			'https://www.solosophie.com/wp-content/uploads/2019/07/dancing_house_of_prague_czechia_and_tram.jpg',
+			'https://www.solosophie.com/wp-content/uploads/2019/07/dancing_house_of_prague_czechia_and_tram-819x1024.jpg',
 		caption:
 			'Наверняка вы слышали от друзей или знакомых, давно живущих в Чехии, фразу, звучащую примерно как «вот сейчас...',
 		commentCount: '50',
 		date: 'July 6',
 		isLiked: false,
-		likeCount: 637,
+		likeCount: '637',
 	},
 	{
 		name: 'tokyo_shoegazer_official',
-		logo: 'https://f4.bcbits.com/img/a0204757718_16.jpg',
-		image:
-			'https://scontent.fprg4-1.fna.fbcdn.net/v/t39.30808-6/244468048_261438735987342_5834514107073768236_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=106&ccb=1-7&_nc_sid=110474&efg=eyJpIjoidCJ9&_nc_ohc=0S1XxNo4YigAX-ClBEL&tn=kYfn6CtCLqVgefcZ&_nc_ht=scontent.fprg4-1.fna&oh=00_AfAbKQ7DPWKqDeZiyfC2OpjXz2aHrNWXd38iQlEJKZ79kQ&oe=64BDF87F',
+		logo: require('../assets/images/profilePics/profilePic3.png'),
+		image: 'https://i.ytimg.com/vi/hlAgMfKSCMk/maxresdefault.jpg',
 		imageHorizontal: true,
 		caption: "Today's session \nIt is scheduled to end today",
 		commentCount: '4',
 		date: '5 days ago',
 		isLiked: false,
-		likeCount: 105,
+		likeCount: '105',
 	},
 	{
 		name: 'zelenskiy_official',
-		logo: 'https://instagram.fprg4-1.fna.fbcdn.net/v/t51.2885-19/312162754_2783092025157728_428709372056906420_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fprg4-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=YB48DX8X3scAX8JsojT&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfBdcTGfnWTfhep6dSJK26xTGSsQJh382eXQXTNyC-g-Aw&oe=64BEAA42&_nc_sid=8b3546',
+		logo: require('../assets/images/profilePics/profilePic4.png'),
 		image:
-			'https://instagram.fprg4-1.fna.fbcdn.net/v/t51.2885-15/361788113_708151754658295_1353581684210589316_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fprg4-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=TM6q1wWiGaUAX90y9rV&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MzE1MTE3MTQyMDI5NzU5NjcxMQ%3D%3D.2-ccb7-5&oh=00_AfCkZL5DIBiWqaZK6vtog8eXD2OFSnxtTeV8GF9PyC6ifQ&oe=64BDB436&_nc_sid=ee9879',
+			'https://cloudfront-us-east-2.images.arcpublishing.com/reuters/OGBROYPEZVMVNLCKMBDIE2XJCE.jpg',
 		imageHorizontal: true,
 		caption:
 			'У межах Чорноморської зернової ініціативи Україна відправила до Ефіопії майже 300 тисяч тонн...',
 		commentCount: '985',
 		date: '2 hours ago',
 		isLiked: false,
-		likeCount: 105898,
+		likeCount: '105 898',
 	},
 ]
 
 const storyData = [
 	{
 		id: '1',
-		url: require('../assets/images/pozorbrno.jpeg'),
+		url: require('../assets/images/storyPics/pozorbrno.jpeg'),
 		title: 'pozorbrno',
 	},
 	{
 		id: '2',
-		url: require('../assets/images/zelenskiy.jpeg'),
+		url: require('../assets/images/storyPics/zelenskiy.jpeg'),
 		title: 'zelenskiy_official',
 	},
 	{
 		id: '3',
-		url: require('../assets/images/takashii.jpeg'),
+		url: require('../assets/images/storyPics/takashii.jpeg'),
 		title: 'takashiifromjap...',
 	},
 	{
 		id: '4',
-		url: require('../assets/images/plaaaato.jpeg'),
+		url: require('../assets/images/storyPics/plaaaato.jpeg'),
 		title: 'plaaaato',
 	},
 	{
 		id: '5',
-		url: require('../assets/images/lego.png'),
+		url: require('../assets/images/storyPics/lego.png'),
 		title: 'lego',
 	},
 	{
 		id: '6',
-		url: require('../assets/images/ltamr.jpeg'),
+		url: require('../assets/images/storyPics/ltamr.jpeg'),
 		title: 'letstalkaboutm...',
 	},
 ]

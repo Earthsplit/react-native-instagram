@@ -1,9 +1,7 @@
 import { View, Text, SafeAreaView, TouchableOpacity, Image } from 'react-native'
-import React from 'react'
 
 import styles from './Profile.styles'
-import AddProfile from '../../assets/icons/addProfile.svg'
-import More from '../../assets/icons/more.svg'
+import { AddProfile, More } from '../../assets/icons'
 import Photos from '../explore/explorePhotos/Photos'
 
 const Profile = () => {
@@ -31,20 +29,18 @@ const Profile = () => {
 				</View>
 				<View style={styles.flexContainer}>
 					<Image
-						source={{
-							uri: 'https://instagram.fprg4-1.fna.fbcdn.net/v/t51.2885-19/313275952_1208736029674905_7578388477210151345_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fprg4-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=OjPuk_RtNkgAX_Cz8HW&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAKCXHFQlULuUatLVokgoc2TGw6SxJunO34F5J0oeUr-w&oe=64BEC5F5&_nc_sid=8b3546',
-						}}
+						source={require('../../assets/images/profilePics/profilePic.png')}
 						style={styles.icon}
 					/>
-					<View style={{ alignItems: 'center' }}>
+					<View style={styles.textCentered}>
 						<Text style={styles.textBold}>6</Text>
 						<Text>Posts</Text>
 					</View>
-					<View style={{ alignItems: 'center' }}>
+					<View style={styles.textCentered}>
 						<Text style={styles.textBold}>93</Text>
 						<Text>followers</Text>
 					</View>
-					<View style={{ alignItems: 'center' }}>
+					<View style={styles.textCentered}>
 						<Text style={styles.textBold}>122</Text>
 						<Text>followers</Text>
 					</View>

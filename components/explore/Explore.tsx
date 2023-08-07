@@ -1,8 +1,8 @@
 import { View, SafeAreaView } from 'react-native'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from './Explore.styles'
 import { SearchBar } from '@rneui/base'
-import More from '../../assets/icons/more.svg'
+import { More } from '../../assets/icons'
 import Photos from './explorePhotos/Photos'
 
 const Explore = () => {
@@ -27,7 +27,7 @@ const Explore = () => {
 				/>
 				<More
 					width={25}
-					fill={'#000'}
+					fill='#000'
 					style={styles.icon}
 				/>
 			</View>

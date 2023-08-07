@@ -1,11 +1,9 @@
-import { Dimensions, SafeAreaView, View } from 'react-native'
+import { SafeAreaView } from 'react-native'
 import Posts from './post/Posts'
-
-const screenHeight = Dimensions.get('window').height
 
 const Home = () => {
 	return (
-		<SafeAreaView style={{ flex: 1 }}>
+		<SafeAreaView style={{ flex: 1, marginTop: 10 }}>
 			<Posts />
 		</SafeAreaView>
 	)

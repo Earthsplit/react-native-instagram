@@ -1,14 +1,22 @@
-# Expo Router Example
+# Instagram UI clone
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+<img src='./assets/images/screenshot.png' height='500'/>
 
-## 🚀 How to use
+The project features:
 
-```sh
-npx create-expo-app -e with-router
+- Home page with posts and stories
+- Explore page with photos
+- Reels page with videos and scrolling
+- Profile page with stats
+- A working like button
+
+## Setup
+
+If you want to play around with this project, feel free to clone it. To start, please enter the following commands
+
+```GIT
+git clone https://github.com/Earthsplit/react-native-instagram
+cd react-native-instagram
+npm install
+npm run start
 ```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)

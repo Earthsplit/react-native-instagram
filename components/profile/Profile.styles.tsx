@@ -30,6 +30,9 @@ const styles = StyleSheet.create({
 	textBold: {
 		fontWeight: '500',
 	},
+	textCentered: {
+		alignItems: 'center',
+	},
 	block: {
 		backgroundColor: '#e0e0e0',
 		flex: 1,

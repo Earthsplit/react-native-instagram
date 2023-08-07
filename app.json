@@ -4,7 +4,9 @@
 		"web": {
 			"bundler": "metro"
 		},
-		"name": "react-native-instagram",
+		"name": "React Native Instagram",
+		"privacy": "public",
+		"description": "React Native Instagram UI clone",
 		"slug": "react-native-instagram",
 		"orientation": "portrait"
 	}

@@ -6,11 +6,7 @@ import { Video, ResizeMode } from 'expo-av'
 import { useRef, useState } from 'react'
 import styles from './Reel.style'
 
-import Heart from '../../../assets/icons/heart.svg'
-import HeartFilled from '../../../assets/icons/heartFilled.svg'
-import More from '../../../assets/icons/more.svg'
-import Send from '../../../assets/icons/send.svg'
-import Share from '../../../assets/icons/share.svg'
+import { Heart, HeartFilled, More, Send, Share } from '../../../assets/icons'
 
 const ReelsList = () => {
 	const ref = useRef(null)

@@ -1,12 +1,14 @@
 import { View, Text, Image, TouchableOpacity, FlatList } from 'react-native'
 import { useState } from 'react'
 import styles from './Post.styles'
-import More from '../../../assets/icons/more.svg'
-import Heart from '../../../assets/icons/heart.svg'
-import HeartFilled from '../../../assets/icons/heartFilled.svg'
-import Send from '../../../assets/icons/send.svg'
-import Share from '../../../assets/icons/share.svg'
-import Save from '../../../assets/icons/save.svg'
+import {
+	More,
+	Heart,
+	HeartFilled,
+	Send,
+	Share,
+	Save,
+} from '../../../assets/icons'
 import Header from '../header/Header'
 
 import { postData } from '../../../myData/data'
@@ -29,9 +31,7 @@ const Posts = () => {
 				<View style={styles.container}>
 					<View style={styles.flexContainer}>
 						<Image
-							source={{
-								uri: item.logo,
-							}}
+							source={item.logo}
 							style={styles.postIcon}
 						/>
 						<View>
@@ -50,9 +50,7 @@ const Posts = () => {
 						</View>
 					</View>
 					<Image
-						source={{
-							uri: item.image,
-						}}
+						source={{ uri: item.image }}
 						resizeMode={item.imageHorizontal ? 'cover' : 'contain'}
 						style={
 							item.imageHorizontal
